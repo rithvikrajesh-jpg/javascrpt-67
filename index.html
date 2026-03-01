@@ -7,7 +7,21 @@
      <script src="index.js"></script>
 </head>
 <body>
-
+    <button onclick="multiply(4)">Click Me!</button>
+    <p id="result"></p>
+  </body>
+</html>  
+<script>
+function multiply(a,b)
+{
+    if(b === undefined)
+    {
+    alert ("The value of b is undefined");
+    b=10;
+    }
+    var result = a * b;
+}
+</script>
   
 </body>
 </html>
